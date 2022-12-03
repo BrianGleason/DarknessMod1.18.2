@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "com.briangleason.darknessdraft.mixin",
+  "refmap": "darknessdraft.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+
+  ],
+  "client": [
+    "MixinGameRenderer",
+    "MixinLightmapTextureManager",
+    "MixinNativeImageBackedTexture",
+    "MixinTheEndDimension",
+    "MixinTheNetherDimension"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
